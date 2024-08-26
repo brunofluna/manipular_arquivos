@@ -20,7 +20,7 @@ if __name__ == '__main__':
         dados = ler_arquivo()
         exibir_menu()
         opcao = input('Opção desejada: ')
-        os.system('cls')1
+        os.system('cls')
         match opcao:
             case '1':
                 print(f'\n{dados}\n')
